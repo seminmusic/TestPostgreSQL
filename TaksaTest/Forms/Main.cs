@@ -25,11 +25,11 @@ namespace TaksaTest.Forms
                 try
                 {
                     satGetData.Start();
-                    IEnumerable<Korisnik> randomData = _Data.GenerateRandomData(broj);
+                    // IEnumerable<Korisnik> randomData = _Data.GenerateRandomData(broj);
                     satGetData.Stop();
 
                     satInsertData.Start();
-                    _Data.InsertTestData(randomData);
+                    // _Data.InsertTestData(randomData);
                     satInsertData.Stop();
                 }
                 catch (Exception ex)
